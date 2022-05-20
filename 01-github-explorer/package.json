@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
+  "scripts": {
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
@@ -18,7 +18,10 @@
     "@babel/preset-env": "^7.18.0",
     "@babel/preset-react": "^7.17.12",
     "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
